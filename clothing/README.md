@@ -13,3 +13,5 @@ Adult-big-trees - https://www.pexels.com/photo/woman-using-umbrella-while-walkin
 The website template and photos are used for study purpose only. 
 
 The output of the website can be seen in https://codepen.io/karagudisuma/pen/yRPPxK
+
+Thanks to the owners of the above link!
