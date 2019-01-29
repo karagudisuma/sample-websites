@@ -1,0 +1,219 @@
+html,
+body {
+ 
+  background-color: #e6e6ff;
+  font-family: arial;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.logo-base {
+  min-width: 50px;
+  height: 50px;
+  background-color: #002080;
+  border: 1px solid black;
+}
+
+#first-petal {
+  -ms-transform: skewY(50deg); /* IE 9 */
+  -webkit-transform: skewY(50deg); /* Safari */
+  transform: skewY(50deg); /* Standard syntax */
+  border-radius: 50% 50% 40% 50%;
+  margin-right: -10px;
+}
+
+#second-petal {
+  border-radius: 50%;
+  height: 25px;
+  transform: rotate(90deg);
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+#third-petal {
+  -ms-transform: skewY(-53deg); /* IE 9 */
+  -webkit-transform: skewY(-53deg); /* Safari */
+  transform: skewY(-53deg); /* Standard syntax */
+  border-radius: 50% 50% 40% 50%;
+  margin-left: -10px;
+}
+
+#flower {
+  display: flex;
+  margin: auto 5px;
+  flex-direction: row;
+}
+
+#logo-name {
+  display: flex;
+}
+
+.header-container {
+  width: 100%;
+  min-height: 100px;
+  background: linear-gradient(to right, #ffffff 0%, #3366ff 100%);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-name-div {
+  margin: auto 5px;
+  text-transform: uppercase;
+  text-align: center;
+  flex: 1;
+}
+
+#company-name--txt {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+#company-name--slogan {
+  text-shadow: 1px 1px;
+}
+
+.navbar-div {
+  width: 40vw;
+}
+
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.navbar-div ul li {
+  list-style-type: none;
+  flex: 1;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: auto;
+}
+
+.main-container {
+  margin-bottom: 20px;
+}
+
+.main-container p {
+  text-align: center;
+  font-weight: 400;
+  
+  line-height: 1.5rem;
+  padding: 20px;
+}
+
+.flex-section-container {
+  margin: 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
+  margin: auto;
+}
+
+.flex-item p {
+  margin: 10px auto;
+  font-size: 0.9rem;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+footer{
+  background: linear-gradient(to right, #ffffff 0%, #3366ff 100%);
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1000px;
+  padding: 30px;
+  margin: auto;
+}
+
+footer ul li{
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  
+  .flex-item{
+    flex: none;
+    width: 75%;
+    margin: 30px auto;
+  }
+  
+  .flex-item img {
+    width: 100%;
+    height: 100vh;
+  }  
+  
+  .flex-item p{
+    margin: 10px 20px;
+  }
+  
+  footer ul{
+    width: auto; 
+  }  
+
+}
+
+@media only screen and (max-width: 650px) {
+  .header-container, footer {
+    background: linear-gradient(to bottom, #ffffff 0%, #3366ff 100%);
+  }
+
+  #logo-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #flower {
+    margin: 10px auto;
+  }
+
+  .company-name-div {
+    margin: 10px auto;
+  }
+
+  .navbar-div {
+    width: 60%;
+  }
+
+  .navbar-ul {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    text-align: right;
+  }
+
+  #company-name--txt {
+    font-size: 1.1rem;
+  }
+
+  #company-name--slogan {
+    text-shadow: none;
+    font-size: 0.9rem;
+  }
+  
+}
