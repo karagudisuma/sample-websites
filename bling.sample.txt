@@ -1,0 +1,16 @@
+// code your data model here
+// project <project name>
+// dataset <dataset name>
+//   table <table name>
+//   join table1 left outer join table2
+//     on table1.x = table2.y
+//   join table2 inner join table3
+//     on table2.y = table3.z
+//     then right outer join table4
+//       on table2.x = table4.w AND table3.h = table4.i
+// table <table name>
+//   data_source <datasource>
+//   sql <sql for table>
+//   column <column name>
+//     sql <sql for column>
+//     type <type>
